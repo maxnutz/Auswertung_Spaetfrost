@@ -1,11 +1,12 @@
 ## Auswertungsskript für Spätfrost 
-> Quick and Dirty Auswertungsskript
+> Quick and Dirty Auswertungsskript zur Angabe von Spätfrosttagen über ein beliebiges Raster, definiert durch die Inputvariablen. Default Auswertungszeitraum doy 90 to doy 110.
+
 #### 1. Umgebung installieren 
 Conda Umgebung aus dem bestehenden Conda-file: 
 ```bash
 conda env create -f environment.yml
 ```
-mehr Infos [hier](conda env create -f environment.yml)
+umfassende Doku [hier](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 
 #### 2. Filestruktur 
 - 1 Ordner für Inputfiles, in dem nur die Inputfiles mit Endung nc liegen
